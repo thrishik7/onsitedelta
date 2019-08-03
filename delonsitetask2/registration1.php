@@ -66,7 +66,7 @@
  
   $.ajax({
   
-    url:"generate.php",
+    url:"generate1.php",
     method:"post",
     dataType:"text",
     success:function(data){

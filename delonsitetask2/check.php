@@ -14,10 +14,13 @@ mysqli_query($db,$sql);
 
 ?>
 
-<div>
-<p>CORRECT<?php echo $user ; ?></p>
+<div style="margin:10px;">
+<p style="color:white">CORRECT</p>
 </div>
 
+<div style="margin:10px;">
+<p style="color:white">WELCOME <?php echo $user ?></p>
+</div>
 
 
 
@@ -31,6 +34,8 @@ mysqli_query($db,$sql);
   } else {
 
 ?>
-<p>try Again</p>
+<div style="margin:10px;">
+<p style="color:white">TRY AGAIN</p>
+</div>
 
   <?php } ?>
